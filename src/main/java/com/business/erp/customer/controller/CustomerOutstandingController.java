@@ -1,7 +1,7 @@
-package com.business.erp.controller;
+package com.business.erp.customer.controller;
 
-import com.business.erp.dto.CustomerOutstandingResponse;
-import com.business.erp.service.CustomerOutstandingService;
+import com.business.erp.customer.dto.CustomerOutstandingResponse;
+import com.business.erp.customer.service.CustomerOutstandingService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

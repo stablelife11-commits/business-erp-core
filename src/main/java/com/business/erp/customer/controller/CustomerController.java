@@ -1,7 +1,7 @@
-package com.business.erp.controller;
+package com.business.erp.customer.controller;
 
-import com.business.erp.entity.Customer;
-import com.business.erp.service.CustomerService;
+import com.business.erp.customer.entity.Customer;
+import com.business.erp.customer.service.CustomerService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package com.business.erp.controller;
+package com.business.erp.customer.controller;
 
-import com.business.erp.dto.CustomerLedgerResponse;
-import com.business.erp.service.CustomerLedgerService;
+import com.business.erp.customer.dto.CustomerLedgerResponse;
+import com.business.erp.customer.service.CustomerLedgerService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

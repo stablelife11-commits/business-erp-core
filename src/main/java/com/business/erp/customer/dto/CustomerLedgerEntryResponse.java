@@ -1,4 +1,4 @@
-package com.business.erp.dto;
+package com.business.erp.customer.dto;
 
 import lombok.Getter;
 import lombok.Setter;

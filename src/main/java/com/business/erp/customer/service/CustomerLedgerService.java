@@ -1,12 +1,12 @@
-package com.business.erp.service;
+package com.business.erp.customer.service;
 
-import com.business.erp.dto.CustomerLedgerEntryResponse;
-import com.business.erp.dto.CustomerLedgerResponse;
-import com.business.erp.entity.Customer;
-import com.business.erp.entity.CustomerPayment;
+import com.business.erp.customer.dto.CustomerLedgerEntryResponse;
+import com.business.erp.customer.dto.CustomerLedgerResponse;
+import com.business.erp.customer.entity.Customer;
+import com.business.erp.customer.entity.CustomerPayment;
 import com.business.erp.entity.Sale;
-import com.business.erp.repository.CustomerPaymentRepository;
-import com.business.erp.repository.CustomerRepository;
+import com.business.erp.customer.repository.CustomerPaymentRepository;
+import com.business.erp.customer.repository.CustomerRepository;
 import com.business.erp.repository.SaleRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;

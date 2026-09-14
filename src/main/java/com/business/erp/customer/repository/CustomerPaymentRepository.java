@@ -1,6 +1,6 @@
-package com.business.erp.repository;
+package com.business.erp.customer.repository;
 
-import com.business.erp.entity.CustomerPayment;
+import com.business.erp.customer.entity.CustomerPayment;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

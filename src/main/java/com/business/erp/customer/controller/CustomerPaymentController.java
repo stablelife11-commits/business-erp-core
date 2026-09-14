@@ -1,7 +1,7 @@
-package com.business.erp.controller;
+package com.business.erp.customer.controller;
 
-import com.business.erp.entity.CustomerPayment;
-import com.business.erp.service.CustomerPaymentService;
+import com.business.erp.customer.entity.CustomerPayment;
+import com.business.erp.customer.service.CustomerPaymentService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,6 @@
-package com.business.erp.repository;
+package com.business.erp.customer.repository;
 
-import com.business.erp.entity.Customer;
+import com.business.erp.customer.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

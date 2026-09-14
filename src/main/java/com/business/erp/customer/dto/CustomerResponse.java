@@ -1,11 +1,13 @@
-package com.business.erp.dto;
+package com.business.erp.customer.dto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class CustomerRequest {
+public class CustomerResponse {
+
+    private Long id;
 
     private String name;
 
@@ -14,4 +16,7 @@ public class CustomerRequest {
     private String email;
 
     private String address;
+
+    private Boolean status;
 }
+

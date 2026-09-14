@@ -1,4 +1,4 @@
-package com.business.erp.entity;
+package com.business.erp.customer.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;

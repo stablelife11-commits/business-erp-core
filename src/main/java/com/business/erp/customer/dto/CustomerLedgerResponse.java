@@ -1,13 +1,14 @@
-package com.business.erp.dto;
+package com.business.erp.customer.dto;
 
 import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Getter
 @Setter
-public class CustomerOutstandingResponse {
+public class CustomerLedgerResponse {
 
     private Long customerId;
 
@@ -20,4 +21,6 @@ public class CustomerOutstandingResponse {
     private BigDecimal totalPaid;
 
     private BigDecimal outstanding;
+
+    private List<CustomerLedgerEntryResponse> entries;
 }

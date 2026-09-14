@@ -1,7 +1,7 @@
-package com.business.erp.service;
+package com.business.erp.customer.service;
 
-import com.business.erp.entity.Customer;
-import com.business.erp.repository.CustomerRepository;
+import com.business.erp.customer.entity.Customer;
+import com.business.erp.customer.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
