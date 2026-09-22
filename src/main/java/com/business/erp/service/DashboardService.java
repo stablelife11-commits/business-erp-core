@@ -1,7 +1,7 @@
 package com.business.erp.service;
 
 import com.business.erp.dto.DashboardResponse;
-import com.business.erp.repository.CustomerRepository;
+import com.business.erp.customer.repository.CustomerRepository;
 import com.business.erp.repository.ProductRepository;
 import com.business.erp.repository.PurchaseRepository;
 import com.business.erp.repository.SaleRepository;
